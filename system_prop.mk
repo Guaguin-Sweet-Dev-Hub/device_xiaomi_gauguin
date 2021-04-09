@@ -29,6 +29,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1  
 
+# Fingerprint Payment for China apps
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.sys.pay.ifaa=1
+
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q7250-19133-1
