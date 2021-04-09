@@ -102,6 +102,7 @@ void load_gauguinpro() {
     property_override("ro.build.product", "gauguinpro");
     property_override("ro.product.device", "gauguinpro");
     property_override("ro.product.marketname", "Redmi Note 9 Pro");
+    property_override("ro.product.brand", "Redmi");
     property_override("ro.build.description", "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys");
     property_override("ro.build.fingerprint", "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys");
 }
